@@ -10,7 +10,7 @@ This service will make customer onboarding.
 # prerequisites
 
 ## python dependencies
-- Django==2.2
+- Django==2.2.13
 - djangorestframework==3.10.3
 
 ## Webservice Endpoints
