@@ -101,13 +101,13 @@ sudo usermod -a -G docker jenkins
 - cd Jenkins_Server_Setup
 - Create CI and CD pipeline in jenkins 
 
-CI pipeline Flow
+ CI pipeline Flow
 
 - Git clone code
 - Build docker image
 - Push image to registry
 
-CD pipeline Flow
+ CD pipeline Flow
 
 - Git clone helm chart
 - Set context of aws cluster
