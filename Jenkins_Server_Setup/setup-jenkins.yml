@@ -1,0 +1,6 @@
+- name: Install Jenkins
+  hosts: jenkins
+  gather_facts: False
+  roles:
+   - role:  ci_server
+     become: yes
